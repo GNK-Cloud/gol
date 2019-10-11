@@ -12,4 +12,4 @@ RUN cp -Rv /tmp/apache-tomcat-9.0.26 /opt/tomcat
 EXPOSE 8080
 CMD ["catalina.sh", "run"]
 #CMD ["/opt/tomcat/apache-tomcat-9.0.26/bin/startup.sh", "run"]
-RUN /entrypoint.sh
+#RUN /entrypoint.sh
